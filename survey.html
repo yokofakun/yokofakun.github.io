@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+
+function shuffleArray(array) {
+   var a=[];
+   while(array.length>0) {
+	var j = Math.floor(Math.random() * array.length);
+	var obj = array[j];
+	array.splice(j,1);
+	a.push(obj);
+	} 
+  return a;
+}
+
+window.addEventListener('load',function() {
+	var pre = document.getElementById("id1");
+	var args= shuffleArray(pre.textContent.split(/[ \t\n\r]+/));
+	
+	pre.parentNode.removeChild(pre);
+	var ul = document.getElementById("id2");
+	for(var i=0;i < args.length; i++) {
+		var s = args[i].replace(/[~]/g,"");
+		if(s.length==0) continue;
+		var li = document.createElement("li");
+		ul.appendChild(li);
+		var a = document.createElement("a");
+		li.appendChild(a);
+		a.appendChild(document.createTextNode(s));
+		a.setAttribute("target","_blank");
+		a.setAttribute("href","https://www.instagram.com/"+s);
+		a.setAttribute("title","https://www.instagram.com/"+s);
+	}
+	
+});
+</script>
+<title>Survey</title>
+</head>
+<body><pre id="id1">
+gala_lozynska sarah_anna_la nitacristal nitacristal/tagged
+ abbydandy_ ada.ardente alexandraskyel alexislahianiphotography aliceviner ali_zagame ambrerenard_ amedea_modele amyheathermodel 
+anlou_pro annahill_author annesophie.trebel anoushanou artofintimates2 belili.modelling 
+bendybombshell bluejay712 
+brigette_roberts bunnbree cactussand cameraviews cassandreka/tagged caterinapalleschi celine.homme chaperchee_ chlo.dupuis 
+chri~stina~z~aunders/tagged clarapnaraujo colinejr coraliehedouin cvnte deb_sg_ devasjoanna dgephotos 
+dovileparis dukephoto.co elvavintage emilie_pom 
+emily.marie.anderson erin_._elizabeth eva_cela evgenia.lichtner li.i.ma 
+ex~~aphotographie 
+explore/tags/blacklin~~gerie explore/tags/bou~~doir explore/tags/bur~les~que explore/tags/gar~terbe~lt 
+explore/tags/photographenantes explore/tags/portraitphotography explore/tags/sensuality explore/tags/shi~ba~ri explore/tags/whitelingerie figureofmarley frankiiwildev2.0 genuineporcelain gurnicki hannanthings iael_joly 
+i_n_e_s_._ israelperezofficial jaguarkill jessicaclarkgraham jordanashleylv josephineisfine jul~~ien.o2 kaluunamoon kazo_nc_photographie klagallagher kristinaj_modelpage krykliaa laceandhaze ladygingerlust _larageorgia __latinka__ laureline_paris levilainpetitbarbu liararoux lizziebayliss lliicckkaa lou_ses lucie_ecureuil luizascandelari madeleinejurk magui_ansuz manyamuse 
+ma~~ried~~wl~d2.0 marienasemann mypunksnotdead nettipicture_ nicoley_shmoley nikitanacht nitacristal noellenurmi nova_amour ohmygarters 
+photos_rg priebusss projektdeer _renoire_ romane_vaujoie sailorvenusdemilo sarafjallstrom sofiawilhelmina sofiew1991 _stella_ba sweetnothingnyc tako_octobrachia taralaluna the_nylon_swish tigzrice tinkerbels tododiajosi
+vanescens vauntastic 
+wayneisnotaphotograph whitneyphitney/tagged yelena_buck lucielecloierec andr3a_e_basta ashleyeat_fleur cantevendrivestraight
+texasroseburlesque ponygirl_ ah_alise photophoody emmanuelledethoor millevolts17
+andromeda.gxy maygreenfire_modelphoto pylonfan
+</pre>
+<div style="column-count: 4;">
+<ul id="id2"></ul>
+</div>
+</body></html>

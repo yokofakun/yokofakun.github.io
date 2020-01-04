@@ -7,10 +7,10 @@
 
 
 <xsl:template match="/">
-<xsl:apply-templates select="//div[p[contains(.,'List of all other')]]//a[contains(@class,'some-item-user')]"/>
+<xsl:apply-templates select="//span[@class='followers_username']"/>
 </xsl:template>
 
-<xsl:template match="a">
+<xsl:template match="span">
 <xsl:variable name="s" select="normalize-space(.)"/>
 <xsl:choose>
 <xsl:when test="starts-with($s,'@')">

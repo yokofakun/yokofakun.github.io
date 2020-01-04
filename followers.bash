@@ -5,8 +5,8 @@ set -o pipefail
 touch followers.txt followers.last.txt
 
 
-wget -q -O - "https://stalkfest.net/account/yokofakun/1550296700/followers/" |\
-xsltproc --html stalkfest.xsl - 2>/dev/null | sort | uniq > tmp.followers.txt
+wget -q -O - "https://gramho.com/followers/yokofakun" |\
+xsltproc --html xtract.xsl - 2>/dev/null | sort | uniq > tmp.followers.txt
 
 test -s tmp.followers.txt
 
