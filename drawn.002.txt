@@ -1067,7 +1067,7 @@ Date: 20190802
 URL: https://www.instagram.com/p/BypdbTnoUKc/
 depicted: @lliicckkaa 
 photo: @gurnicki 
-ig: https://www.instagram.com/p/BypdbTnoUKc/
+ig:
 
 Date: 20190802
 URL: https://www.instagram.com/p/B0V6REjh55p/
