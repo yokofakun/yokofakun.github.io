@@ -45,8 +45,8 @@ ig: https://www.instagram.com/p/B40wgi2I3Q1/
 
 Date: 20191113
 URL:  https://www.instagram.com/chloedupuis1/
-depicted: @chloedupuis1_
-photo: @chloedupuis1
+depicted: @chlo.dupuis
+photo: @chlo.dupuis
 tumblr: https://tyeul.tumblr.com/post/189043507548
 img: https://66.media.tumblr.com/6ba926d51dfaa72e7f3aae9619a4ffac/79f8338d8379ebd6-a2/s1280x1920/dd9c714b61a3b02c593fc650bcc74b71532ff19f.jpg
 da: https://www.deviantart.com/yokofakun/art/201911132124-820190947
@@ -432,7 +432,7 @@ ig: https://www.instagram.com/p/B3XzHVbIzIp/
 
 Date: 20191008
 URL: https://www.instagram.com/p/B3PHZi5iwsG/
-depicted: @chloedupuis1
+depicted: @chlo.dupuis
 photo: @laurentcastellani
 tumblr: https://tyeul.tumblr.com/post/188200255238
 img: https://66.media.tumblr.com/2c5bbc26607840d7847f92f9c9b2fef3/tumblr_pz0uo6DRVg1r9cdppo1_1280.jpg

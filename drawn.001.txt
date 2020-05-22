@@ -400,7 +400,7 @@ da:https://www.deviantart.com/yokofakun/art/201907210011-806456828
 
 Date: 20190720
 URL: https://www.instagram.com/p/B0DqRB6CelA/
-depicted: @chloedupuis1
+depicted: @chlo.dupuis
 photo: @illandupont
 tumblr: https://tyeul.tumblr.com/post/186420664508
 img: https://66.media.tumblr.com/613b79b4630eeae9cc2a2f0f65ed4979/tumblr_puxvtcf3Lh1r9cdppo1_1280.jpg
@@ -661,7 +661,7 @@ da: https://www.deviantart.com/yokofakun/art/201906250015-803068337
 
 Date: 20190624
 URL: https://www.instagram.com/p/BzEFzLgoOXB/
-depicted: @eleanor.molko
+depicted: @mathilde.wnr
 photo: @aleksanderstojanov
 tumblr:https://tyeul.tumblr.com/post/185822981648
 img: https://66.media.tumblr.com/600ee613b43b8c6419e654f2c17495ca/tumblr_ptmdr7Aer31r9cdppo1_1280.jpg
@@ -963,7 +963,7 @@ da:  https://www.deviantart.com/yokofakun/art/201905262335-799198731
 
 Date: 20190526
 URL:  https://www.instagram.com/p/Bx5KBtGoKgm/
-depicted: @eleanor.molko
+depicted: @mathilde.wnr
 photo: @tobesheye  
 tumblr: https://tyeul.tumblr.com/post/185159032343
 img: https://66.media.tumblr.com/3c0d030d33a9a3062db16da693856a1b/tumblr_ps4nftgwHR1r9cdppo1_1280.jpg
@@ -1136,7 +1136,7 @@ da:  https://www.deviantart.com/yokofakun/art/20190510-797171057
 
 Date: 20190509
 URL: https://www.instagram.com/eleanor.molko/
-depicted: @eleanor.molko
+depicted: @mathilde.wnr
 tumblr: https://tyeul.tumblr.com/post/184766743113
 img: https://66.media.tumblr.com/7d99154702c6403024813f8166364859/tumblr_pr98zdP5Pu1r9cdppo1_1280.jpg
 da:  https://www.deviantart.com/yokofakun/art/201905092256-797053193
