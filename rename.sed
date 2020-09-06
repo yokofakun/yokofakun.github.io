@@ -22,3 +22,4 @@ s/@lady_mac_death/@cha.macdeath/
 s/@[Ll]iara[rR]oux/@liaraRoux/
 s/@_pink__eye_/@_missy_jeane_/
 s/@frankiiwilde/@wildeaboutfrankii/
+s/@evgenia.lichtner/@evgenialichtner/
