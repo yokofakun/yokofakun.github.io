@@ -17,13 +17,15 @@ function collect() {
     var a = iter.iterateNext();
     if(a==null) break;
     var href= a.getAttribute("href");
-    
+    if(href==null) continue;
     if(href.indexOf("/p/")!=-1) continue;
     if(href.indexOf("/explore/")!=-1) continue;
     if(href.indexOf("/legal/")!=-1) continue;
      if(href.indexOf("/directory/")!=-1) continue;
      if(href.indexOf("/accounts/")!=-1) continue;
      if(href.indexOf("/yokofakun/")!=-1) continue;
+     if(href.indexOf("direct/")!=-1) continue;
+      if(href.indexOf("about/")!=-1) continue;
     if(!href.startsWith("/")) continue;
     if(!href.endsWith("/")) continue;
     
