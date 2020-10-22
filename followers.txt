@@ -296,6 +296,7 @@ artkanar
 art.kaotic
 artlife_everyday
 art_loik
+artloilove
 artlover_toni
 artmaterials_korea
 artnovach
@@ -659,6 +660,7 @@ coyotek_art6
 cpsarts
 crabshaqdesigns_
 cracksinthe_wall
+craig.feldmann
 creationtear
 creativeartbyroja
 credit_en_48h_
@@ -1538,6 +1540,7 @@ katstap
 kayronweddings
 kcgland_
 kchristian_art
+kecchang
 keindosso
 kelseymorrow19
 kemalthenomad
