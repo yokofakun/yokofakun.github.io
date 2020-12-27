@@ -218,10 +218,10 @@ URL: https://www.instagram.com/p/B0grMGjCYVNXvvJmhsCXG-XCvAddySNgJgd8f80/
 depicted: @maygreenfire_modelphoto
 photo: @detlevphilothee
 tumblr: https://tyeul.tumblr.com/post/190349121753
-img: https://66.media.tumblr.com/e235136bb05e31ced917e62715be66fa/0763de64b8d225ed-9e/s1280x1920/8a14c2415c5303807861f54e5ce41ea15f2839f2.jpg
+img: https://64.media.tumblr.com/e235136bb05e31ced917e62715be66fa/0763de64b8d225ed-9e/s1280x1920/8a14c2415c5303807861f54e5ce41ea15f2839f2.jpg
 da: https://www.deviantart.com/yokofakun/art/202001192101-827521670
 fb: https://www.facebook.com/kakaheska/photos/a.1466037176974457/2584664578445039/
-ig: https://www.instagram.com/p/B7cM7pSI-Xd/
+ig:
 
 Date: 20200118
 URL: https://www.instagram.com/p/B655n7qifH5/
@@ -302,21 +302,11 @@ URL: https://www.instagram.com/p/B655n7qifH5/
 depicted: @ophelie_cousin
 photo: @juliensaura.boudoir
 tumblr: https://tyeul.tumblr.com/post/190219112443
-img: https://66.media.tumblr.com/3bf39909d5b09840726583d9caa50812/8cb9bb672dc1403e-3b/s1280x1920/181d968727945c67174f29dac078c2d2f20a69d7.jpg
+img: https://64.media.tumblr.com/3bf39909d5b09840726583d9caa50812/8cb9bb672dc1403e-3b/s1280x1920/181d968727945c67174f29dac078c2d2f20a69d7.jpg
 da: https://www.deviantart.com/yokofakun/art/202001061919-826737969
 fb: https://www.facebook.com/kakaheska/photos/a.1466037176974457/2577851145793049/
 ig: https://www.instagram.com/p/B7cM7pSI-Xd/
 
-
-Date: 20200112
-URL: https://www.instagram.com/p/B655n7qifH5/
-depicted: @ophelie_cousin
-photo: @juliensaura.boudoir
-tumblr: https://tyeul.tumblr.com/post/190219112443
-img: https://66.media.tumblr.com/f42a108c3ea29a8fe5fe22057d24303b/0523ac69aa333662-2e/s1280x1920/858c14094c87932ce37b498e499f6cd3231a1cd6.jpg
-da: https://www.deviantart.com/yokofakun/art/202001061919-826737969
-fb: https://www.facebook.com/kakaheska/photos/a.1466037176974457/2577851145793049/
-ig: 
 
 Date: 20200112
 URL: https://www.instagram.com/p/B7MVKsIpw-b/
@@ -375,8 +365,8 @@ Date: 20200108
 URL: https://www.instagram.com/p/B6lKbCdCioQ/
 depicted: @marieparisot_model
 photo: @nicolasmallus
-tumblr: https://tyeul.tumblr.com/post/190107976668
-img: https://66.media.tumblr.com/f42a108c3ea29a8fe5fe22057d24303b/0523ac69aa333662-2e/s1280x1920/858c14094c87932ce37b498e499f6cd3231a1cd6.jpg
+tumblr: https://tyeul.tumblr.com/post/190148164178
+img: https://64.media.tumblr.com/962ed8e5292558e2278d7fe252ea1b3d/086ac6b155b0d7a6-85/s1280x1920/0a66c3a3891ced4747373627d970ff0acd552926.jpg
 da: https://www.deviantart.com/yokofakun/art/202001082346-826311851
 fb: https://www.facebook.com/kakaheska/photos/a.1466037176974457/2571801866397977/
 ig:
