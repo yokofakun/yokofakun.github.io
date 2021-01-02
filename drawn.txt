@@ -214,7 +214,7 @@ tumblr: https://tyeul.tumblr.com/post/636249952167903232
 img: https://64.media.tumblr.com/a8c0f4e500cb86028cb28a8e71fcd49d/e0e52d1e80f6be44-2e/s1280x1920/c0c5cb6966845fdb7bec8fa4f2aba2f212e7c2f2.jpg
 da: https://www.deviantart.com/yokofakun/art/20201130-862737668
 fb: https://www.facebook.com/kakaheska/posts/2875308216047339
-ig:
+ig: https://www.instagram.com/p/CJex-hwBU13/
 
 Date: 20201130
 URL:  https://www.instagram.com/p/CIAg8gkgYM4sVW-OB2QNwxpvxf23Tck2nu447Y0/
@@ -224,7 +224,7 @@ tumblr: https://tyeul.tumblr.com/post/636242773925838848
 img: https://64.media.tumblr.com/335dfe75ee451acb3b040f3791785388/809c482d4608e21e-dc/s1280x1920/54b5e7c7575705bc1d2947bef94c42e9dffbb546.jpg
 da: https://www.deviantart.com/yokofakun/art/20201130-862727665
 fb: https://www.facebook.com/kakaheska/posts/2875241049387389
-ig:
+ig: https://www.instagram.com/p/CJcVa5DhO1c/
 
 Date: 20201129
 URL:  https://www.instagram.com/p/CIG3s4eAqLV/
@@ -234,7 +234,7 @@ tumblr: https://tyeul.tumblr.com/post/636156450547302400
 img: https://64.media.tumblr.com/66adb896c47dae7024f51a5caa39f6dd/d95073a273c6ccad-1b/s1280x1920/7ee31d0061fc295dedb39d4fae1ea32a39cc7b46.jpg
 da: https://www.deviantart.com/yokofakun/art/20201129-862634644
 fb: https://www.facebook.com/kakaheska/posts/2874464412798386
-ig:
+ig: https://www.instagram.com/p/CJXHUNqiaQE/
 
 Date: 20201128
 URL:  https://www.instagram.com/p/CHiOUvqH83U/
