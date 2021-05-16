@@ -24,14 +24,32 @@ window.addEventListener('load',function() {
 	for(var i=0;i < args.length; i++) {
 		var s = args[i].replace(/[~]/g,"");
 		if(s.length==0) continue;
+		var url = "https://www.instagram.com/"+s;
+		var x1= s.indexOf("[");
+		var x2= s.indexOf("]");
+		if(x1!=-1 && x1 < x2)
+			{
+			var s2 = s.substring(x1+1,x2);
+			s= s.substring(0,x1);
+			if(s2 == "flickr") {
+				url = "https://www.flickr.com/photos/"+s;
+				}
+			else if(s2 == "500px") {
+				url = "https://www.flickr.com/photos/"+s;
+				}
+			else if(s2 == "da") {
+				url = "https://www.deviantart.com/"+s+"/gallery/all";
+				}
+			}
+
 		var li = document.createElement("li");
 		ul.appendChild(li);
 		var a = document.createElement("a");
 		li.appendChild(a);
 		a.appendChild(document.createTextNode(s));
 		a.setAttribute("target","_blank");
-		a.setAttribute("href","https://www.instagram.com/"+s);
-		a.setAttribute("title","https://www.instagram.com/"+s);
+		a.setAttribute("href",url);
+		a.setAttribute("title",url);
 	}
 	
 });
@@ -42,10 +60,10 @@ window.addEventListener('load',function() {
 gala~_loz~ynska
 nit~acristal
 nit~acristal/tagged
+se~cre~ts~inlace/tagged
 abbydandy_ ada.ardente  alexislahianiphotography aliceviner ali_zagame ambrerenard_ amedea_modele 
-anlou_pro annahill_author annesophie.trebel anoushanou
+anlou_pro annahill_author an~nesophie.t~rebel anoushanou
 art~ofintimates_ma
-belili.modelling 
 bendybombshell
 bluejay
 bunnbree cactussand cameraviews cassandreka/tagged caterinapalleschi celine.homme chaperchee_ chlo.dupuis 
@@ -176,6 +194,14 @@ ma~rion_thefre~nchcurvyg~irl
 lindsa~tra
 angi~e_bouff~ant
 mar~inel~bge
+jonr~obin~sonph~oto
+jumparou~ndjon[da]
+flu~u~kk[flickr]
+96602090@N08[flickr]
+59871731@N06[flickr]
+todephotography[flickr]
+flor~a_e~is
+explore/locations/181840082474866/la-monda~ine/
 </pre>
 <div style="column-count: 4;">
 <ul id="id2"></ul>

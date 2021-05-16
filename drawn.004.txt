@@ -1527,6 +1527,7 @@ likes: 23
 ig: https://www.instagram.com/p/BH0VJI6DNBB/
 
 URL: https://www.reddit.com/r/redditgetsdrawn/comments/4sqr8e/
+depicted: /u/fluffkin
 date: 2016-07-14
 likes: 27
 ig: https://www.instagram.com/p/BH2p8x6jzke/
