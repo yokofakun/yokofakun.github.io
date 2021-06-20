@@ -2897,6 +2897,7 @@ comments: 1
 ig: https://www.instagram.com/p/BKCBv2vhMeQ/
 
 URL: https://www.reddit.com/r/redditgetsdrawn/comments/51jiw1/
+depicted: @martyrdison
 date: 2016-09-07
 likes: 37
 ig: https://www.instagram.com/p/BKEjk_cB9jO/
