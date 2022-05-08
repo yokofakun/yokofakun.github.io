@@ -2713,6 +2713,8 @@ comments: 4
 ig: https://www.instagram.com/p/BjVv9CLgCmp/
 
 URL: https://500px.com/photo/256715633/clara
+depicted: @catlou94
+photo: @busch_photo
 date: 2018-05-28
 likes: 141
 ig: https://www.instagram.com/p/BjVvhN3AJxc/
@@ -3896,7 +3898,8 @@ ig: https://www.instagram.com/p/BN0IUVzBOtx/
 
 URL: https://redd.it/5hgnup
 date: 2016-12-10
-depicted: @strupat
+depicted: /u/ TheLizardQueen14
+photo: @strupat
 likes: 47
 ig: https://www.instagram.com/p/BN1_6sdBHmB/
 
