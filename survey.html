@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <script>
 
+
 function shuffleArray(array) {
    var a=[];
    while(array.length>0) {
@@ -18,13 +19,14 @@ function shuffleArray(array) {
 window.addEventListener('load',function() {
 	var pre = document.getElementById("id1");
 	var args= shuffleArray(pre.textContent.split(/[ \t\n\r]+/));
-	
+	var is_galaxy = navigator.userAgent.match(/SAMSUNG|SGH-[I|N|T]|GT-[I|P|N]|SM-[N|P|T|Z|G]|SHV-E|SCH-[I|J|R|S]|SPH-L/i);
 	pre.parentNode.removeChild(pre);
 	var ul = document.getElementById("id2");
 	for(var i=0;i < args.length; i++) {
 		var s = args[i].replace(/[~]/g,"");
 		if(s.length==0) continue;
-		var url = "https://www.instagram.com/"+s;
+		var ig_base = "https://www.instagram.com/";
+		var url = ig_base + s;
 		var x1= s.indexOf("[");
 		var x2= s.indexOf("]");
 		if(x1!=-1 && x1 < x2)
@@ -32,21 +34,35 @@ window.addEventListener('load',function() {
 			var s2 = s.substring(x1+1,x2);
 			s= s.substring(0,x1);
 			if(s2 == "flickr") {
+				if(is_galaxy) continue;
 				url = "https://www.flickr.com/photos/"+s;
 				}
 			else if(s2 == "500px") {
+				if(is_galaxy) continue;
 				url = "https://500px.com/p/"+s+"?view=photos";
 				}
 			else if(s2 == "da") {
+				if(is_galaxy) continue;
 				url = "https://www.deviantart.com/"+s+"/gallery/all";
 				}
 			else if(s2 == "reddit") {
+				if(is_galaxy) continue;
 				url = "https://www.reddit.com/user/"+s+"/submitted/";
 				}
 			}
+		
 		if(s.indexOf("http")==0) {
+			if(is_galaxy) continue;
 			url=s;
 			}
+		if(is_galaxy) { 
+			if( url.indexOf(ig_base)==0 && url.substring(ig_base.length).indexOf('/')==-1) {
+				url =  "instagram://user?username=" + url.substring(ig_base.length);
+				}
+			else {
+				continue;
+			}
+		}
 		var li = document.createElement("li");
 		ul.appendChild(li);
 		var a = document.createElement("a");
@@ -72,7 +88,7 @@ art~ofintimates_ma
 bendybombshell
 bluejay
 bunnbree cactussand cameraviews cassandreka/tagged caterinapalleschi celine.homme chaperchee_ chlo.dupuis 
-chri~stina~z~aunders/tagged
+https://www.picuki.com/profile/tinazaunders
 kiddotrixx
 coraliehedouin 
 deb_ink_
@@ -139,7 +155,6 @@ pal~een~glishr~ose
 iam~batm~an~da
 de~kil~~ahd~~ivi~ne
 a~syl~ie_
-im~plic~itelin~gerie
 mar~~izan~nevi~sser
 ce~~dri~c_ar~en~ds
 v~dc~slo~ane~
@@ -208,6 +223,7 @@ todephotography[flickr]
 7889989@N05[flickr]
 76524056@N00[flickr]
 ericvanden[flickr]
+https://www.flickr.com/groups/2810985@N24/pool/
 https://www.flickr.com/groups/3762458@N23/pool/
 https://www.flickr.com/groups/2331893@N25/pool/
 https://www.flickr.com/groups/1343753@N23/pool/
@@ -222,7 +238,7 @@ ackbar2008[flickr]
 carlyadastra/tagged
 meanderingfigure
 152632759@N08[flickr]
-lesl~ie~dumas~son
+lesliedupontmasson
 sarap~inna.vin
 heikole42[flickr]
 thelu~cylu~xe
@@ -271,6 +287,16 @@ myanal~ogueetc
 char~lottec~du
 chloe.lin~dau
 https://www.flickr.com/photos/33136120@N05
+jennyferpatton
+asimira_iliac
+bluede_model
+missbeetownsend
+ducklingrodeo
+tanyapagano
+https://500px.com/p/lord_sinclair?view=photos
+https://www.flickr.com/groups/mostbeautifulofkingdom/pool/
+https://www.flickr.com/photos/c0gnate/
+xavmood
 </pre>
 <div style="column-count: 4;">
 <ul id="id2"></ul>
