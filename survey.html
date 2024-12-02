@@ -48,7 +48,10 @@ function toNode(E) {
 		var proba = parseFloat(E.proba);
 		if(Math.random() >= proba) return null;
 		}
-	if("flickr" in E && E.flickr) {
+	if("telegram" in E && E.telegram) {
+		if(!isURL(url)) url = "https://t.me/s/"+s;
+		}
+	else if("flickr" in E && E.flickr) {
 		if(is_galaxy) return null;
 		if(!isURL(url)) url = "https://www.flickr.com/photos/"+s;
 		var x2="f";
@@ -151,7 +154,6 @@ var urls= [
 {url:"a~syl~ie_"},
 {url:"b_a~n~d_b_j~ar~r~ete~l~les"},
 {url:"bel.im.bild",private:true},
-{url:"bendybombshell"},
 {url:"bluede_model2"},
 {url:"bluejay"},
 {url:"bunnbree"},
@@ -186,7 +188,7 @@ var urls= [
 {url:"dukephoto.co",private:false,"archetype":"https://www.instagram.com/p/Czr6gkgs7OZ/"},
 {url:"emilie_pom"},
 {url:"emily.marie.anderson"},
-{url:"emmanuelledethoor"},
+{url:"emmanuelledethoor12","archetype":"https://www.instagram.com/emmanuelledethoor12/p/CvKqCS9t3l3/"},
 {url:"ericvanden",flickr:true},
 {url:"eva_cela"},
 {url:"ev~a_lun~ia"},
@@ -195,7 +197,6 @@ var urls= [
 {url:"evie_say_yes"},
 {url:"ex~~aphotographie"},
 {url:"explore/locations/181840082474866/la-monda~ine/","text":"lamondaine"},
-{url:"explore/tags/blacklin~~gerie"},
 {url:"explore/tags/bou~~doir"},
 {url:"explore/tags/bur~les~que"},
 {url:"explore/tags/gar~terbe~lt"},
@@ -320,8 +321,6 @@ var urls= [
 {url:"sofiew1991"},
 {url:"sorserez"},
 {url:"diana_jean_o"},
-{url:"succ~ube~vora~ce"},
-{url:"sweetnothingnyc"},
 {url:"tako_octobrachia"},
 {url:"tanyapagano"},
 {url:"taralaluna"},
@@ -333,6 +332,7 @@ var urls= [
 {url:"tinkerbels"},
 {url:"toadl~ipz85",reddit:true},
 {url:"todephotography",flickr:true},
+{url:"alexdportraits",flickr:true},
 {url:"tododiajosi",private:false,"archetype":"https://www.instagram.com/p/CxktvWGOBQV/"},
 {url:"trix~ie_lh~omme"},
 {url:"vanescens"},
@@ -346,11 +346,12 @@ var urls= [
 {url:"xavmood"},
 {url:"bbrequ1",private:true},
 {url:"y-eis","500px":true},
+{url:"Thomas_Ruppel","500px":true},
+{url:"andrewjackson17671","500px":true},
 {url:"j_artphoto","500px":true},
 {url:"yakushkov2016","500px":true},
 {url:"acrosphotography","500px":true},
 {url:"mshonak","500px":true,"archetype":"https://500px.com/photo/1080185928/"},
-{url:"yest~erday_lingerie"},
 {url:"zo~e_c~amille"},
 {url:"ivanacermakova","tagged":true},
 {url:"minalenoirparis","css":"accept","suffix":"[accept]",private:true},
@@ -412,7 +413,6 @@ var urls= [
 {url:"patrick.kothe.portrait"},
 {url:"anastasiamartorana26"},
 {url:"myschaoreo"},
-{url:"paige__te"},
 {url:"boudoir_me_"},
 {url:"ge100"},
 {url:"jasmintalisa"},
@@ -454,12 +454,10 @@ var urls= [
 {url:"94945617@N03","text":"Jon καλό φως","flickr":true},
 {url:"198389279@N02","text":"Magain","flickr":true},
 {url:"28663388@N04",text:"fleni",flickr:true},
-{url:"netudoma",text:"netudoma",flickr:true},
 {url:"jevgenijbalezin",text:"jevgenijbalezin",flickr:true},
 {url:"188194782@N07",text:"lakesize",flickr:true,pages:95},
 {url:"saver_ag",text:"saver_ag",flickr:true},
 {url:"koron~a-pl",flickr:true},
-{url:"130333033@N08",flickr:true,text:"ilkkajukarainen"},
 {url:"ivanoelbarreto",flickr:true},
 {url:"vector_ort",flickr:true},
 {url:"gaetmarie",flickr:true},
@@ -482,12 +480,30 @@ var urls= [
 {url:"lespetitsregards"},
 {url:"stefania_model"},
 {url:"doucescourbes"},
-{url:"164933535@N03", flickr:true},
 {url:"devorobin",flickr:true},
+{url:"salvo-cici",flickr:true},
 {url:"artemisfauna"},
 {url:"emma_larouge"},
 {url:"belleprivephotography"},
-{url:"pierreallard","500px":true}
+{url:"photoantonlind"},
+{url:"pierreallard","500px":true},
+{url:"graefel","500px":true},
+{url:"celine.in.frame"},
+{url:"isabelle_sweetginger"},
+{url:"artem_stisovyak","telegram":true},
+{url:"gingerdaydreams"},
+{url:"automne_secret"},
+{url:"_ne.vous.deplaise_"},
+{url:"nelimea_"},
+{url:"vintageroseelizabeth"},
+{url:"ladylangfordnylons"},
+{url:"thierrybeez.eye",archetype:"https://www.instagram.com/p/C5G4jcDiMSa/"},
+{url:"melia.s0"},
+{url:"francois.capdeville"},
+{url:"200523833@N03",flickr:true},
+{url:"hervesifferlin",flickr:true},
+{url:"pipandpantalaimon"},
+{url:"ge100"}
 ];
 
 </script>
