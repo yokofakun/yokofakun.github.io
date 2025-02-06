@@ -8,10 +8,10 @@
 .flickr {color:magenta;}
 .px500 {color:orange;}
 </style>
+<script src=".code.js""></script>
 <script>
 
 var is_galaxy = navigator.userAgent.match(/SAMSUNG|SGH-[I|N|T]|GT-[I|P|N]|SM-[N|P|T|Z|G]|SHV-E|SCH-[I|J|R|S]|SPH-L/i);
-
 
 function shuffleArray(array) {
    var a=[];
@@ -107,6 +107,7 @@ function toNode(E) {
 	}
 
 window.addEventListener('load',function() {
+	if(!g) return;
 	var ul = document.getElementById("id2");
 	var args= shuffleArray(urls);
 
@@ -212,7 +213,6 @@ var urls= [
 {url:"flu~u~kk",flickr:true,proba:0.1},
 {url:"f.r.e.d.x.o.c"},
 {url:"freyskeyd",proba:0.1},
-{url:"gala~_loz~ynska",proba:0.1,tagged:true},
 {url:"g~ar~terbl~og"},
 {url:"gava_ar~chive"},
 {url:"genuineporcelain"},
@@ -420,7 +420,6 @@ var urls= [
 {url:"laurent_christophe_photographe"},
 {url:"eroticsallyfranklin"},
 {url:"ltba_bnw"},
-{url:"chaz_goldsmith"},
 {url:"imrachelbradley"},
 {url:"anton_d_rea_ph"},
 {url:"kalopsiahhh"},
@@ -490,12 +489,10 @@ var urls= [
 {url:"graefel","500px":true},
 {url:"celine.in.frame"},
 {url:"isabelle_sweetginger"},
-{url:"artem_stisovyak","telegram":true},
 {url:"gingerdaydreams"},
-{url:"automne_secret"},
+{url:"automne_secret",archetype:"https://www.instagram.com/automne_secret/p/DCnu2fsiU22/?hl=frl"},
 {url:"_ne.vous.deplaise_"},
 {url:"nelimea_"},
-{url:"vintageroseelizabeth"},
 {url:"ladylangfordnylons"},
 {url:"thierrybeez.eye",archetype:"https://www.instagram.com/p/C5G4jcDiMSa/"},
 {url:"melia.s0"},
@@ -512,7 +509,12 @@ var urls= [
 {url:"eugene.reno",archetype:"https://www.instagram.com/p/B961p4OJymE/"},
 {url:"alina__shelk",archetype:"https://www.instagram.com/alina__shelk/p/C4V--4Qr42U/"},
 {url:"sulis_silks"},
-{url:"femininity.personified"}
+{url:"femininity.personified"},
+{url:"elisematron"},
+{url:"girlphotographed"},
+{url:"amandine.popina",archetype:"https://www.instagram.com/p/BiZjo3ogRgn/"},
+{url:"morose-ave",flickr:true},
+{url:"mrs_xamilla"}
 ];
 
 </script>
