@@ -3837,6 +3837,7 @@ URL: https://www.reddit.com/r/redditgetsdrawn/comments/5ccjwl/
 date: 2016-11-11
 likes: 49
 comments: 1
+deleted: true
 ig: https://www.instagram.com/p/BMrRtOthpBf/
 
 date: 2016-11-11
