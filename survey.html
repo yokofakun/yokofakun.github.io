@@ -7,6 +7,7 @@
 .accept {color:green;}
 .flickr {color:magenta;}
 .px500 {color:orange;}
+.reddit {color:cyan;}
 </style>
 <script src=".code.js""></script>
 <script>
@@ -73,9 +74,10 @@ function toNode(E) {
 		if(is_galaxy) return null;
 		if(!isURL(url)) url = "https://www.deviantart.com/"+s+"/gallery/all";
 		}
-	else if("reddit" in E && E.reddit) {
+	else if("reddit" in E && E.reddit==true) {
 		if(is_galaxy) return null;
-		if(!isURL(url)) url = "https://www.reddit.com/user/"+s+"/submitted/";
+		if(!isURL(url)) url = "https://www.reddit.com/"+s+"/submitted/";
+		css="reddit";
 		}
 	else if(!isURL(url)) {
 		url = isURL(s)?s:ig_base + s;
@@ -125,7 +127,6 @@ var urls= [
 {url:"152632759@N08",flickr:true,text:"michalköpping1",pages:21},
 {url:"193822946@N05",flickr:true,text:"M Photo",pages:8},
 {url:"59871731@N06",flickr:true,text:"He~iko",pages:81},
-{url:"69206561@N05",flickr:true,text:"lilbi~tris~que",pages:191},
 {url:"7889989@N05",flickr:true,text:"Evgeny Goncharov",pages:20},
 {url:"46508737@N04",flickr:true,text:"jen-taube"},
 {url:"ackbar2008",flickr:true},
@@ -166,7 +167,7 @@ var urls= [
 {url:"fotografiene"},
 {url:"jo.schwab.berlin"},
 {url:"maudarte"},
-{url:"cham~bre_clos~e"},
+{url:"cham~breclos~e","private":true},
 {url:"chaperchee_"},
 {url:"char~lottec~du",private:false,"archetype":"https://www.instagram.com/p/Cb0iRE_AkiK/"},
 {url:"cha~t_hibet~te"},
@@ -250,7 +251,7 @@ var urls= [
 {url:"lailannah"},
 {url:"_larageorgia"},
 {url:"__latinka__"},
-{url:"laurencarr~era",reddit:true},
+{url:"/user/laurencarr~era",reddit:true},
 {url:"lea.deru",private:true},
 {url:"le~anne~an~sar"},
 {url:"lesliedupontmasson"},
@@ -311,7 +312,7 @@ var urls= [
 {url:"thelucyluxe"},
 {url:"theysho~tyeti"},
 {url:"tigzrice"},
-{url:"toadl~ipz85",reddit:true},
+{url:"/user/toadl~ipz85",reddit:true},
 {url:"todephotography",flickr:true},
 {url:"alexdportraits",flickr:true},
 {url:"tododiajosi",private:false,"archetype":"https://www.instagram.com/p/CxktvWGOBQV/"},
@@ -506,9 +507,9 @@ var urls= [
 {url:"ele.ag"},
 {url:"rosa__asor"},
 {url:"noirboudior"},
-{url:"wald.the.tricolor"},
 {url:"48191619@N08",flickr:true},
 {url:"PeterSlagmolen","500px":true},
+{url:"ikhrenov","500px":true},
 {url:"Eidi","500px":true},
 {url:"fdumas94","500px":true},
 {url:"amberrosemcconnellbu"},
@@ -540,10 +541,13 @@ var urls= [
 {url:"annart0707"},
 {url:"natasha_schastlivaya__"},
 {url:"miamia.16"},
-{url:"manonboussioux_pro"},
 {url:"sarafantine_"},
 {url:"jeanjaques_photo"},
-{url:"jadey_journey"}
+{url:"jadey_journey"},
+{url:"gudrunmarani"},
+{url:"monsieurstefan"},
+{url:"mshelenadawson"},
+{url:"/user/being-toward-trash",reddit:true}
 ];
 
 </script>
